@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "scene": {
+    "width": 1200,
+    "height": 630,
+    "size": "L",
+    "scale": 0.41144060025675167,
+    "palette": "lilac",
+    "style": "balanced",
+    "items": [
+      {
+        "uid": "item-1",
+        "objectId": "phone",
+        "role": "background",
+        "x": 604.7685965569757,
+        "y": 142.81210879254942,
+        "rotation": 0
+      },
+      {
+        "uid": "item-2",
+        "objectId": "pen",
+        "role": "background",
+        "x": 906.5767344693134,
+        "y": 114.0112667745768,
+        "rotation": 0
+      },
+      {
+        "uid": "item-0",
+        "objectId": "book",
+        "role": "main",
+        "x": 84.00000000000001,
+        "y": 114.0112667745768,
+        "rotation": 0
+      }
+    ],
+    "background": true
+  },
+  "custom": null
+}

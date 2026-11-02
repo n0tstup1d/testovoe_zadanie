@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "scene": {
+    "width": 800,
+    "height": 1200,
+    "size": "L",
+    "scale": 0.3288282557422613,
+    "palette": "aqua",
+    "style": "headline",
+    "items": [
+      {
+        "uid": "item-1",
+        "objectId": "phone",
+        "role": "background",
+        "x": 237.25960795059748,
+        "y": 545.4840332351415,
+        "rotation": 0
+      },
+      {
+        "uid": "item-2",
+        "objectId": "folder",
+        "role": "background",
+        "x": 64,
+        "y": 667.2688660318454,
+        "rotation": 0
+      },
+      {
+        "uid": "item-3",
+        "objectId": "lamp",
+        "role": "background",
+        "x": 424.92847006782085,
+        "y": 690.2868439338038,
+        "rotation": 0
+      },
+      {
+        "uid": "item-0",
+        "objectId": "puzzle",
+        "role": "main",
+        "x": 64,
+        "y": 522.4660553331832,
+        "rotation": 0
+      }
+    ],
+    "background": true
+  },
+  "custom": null
+}

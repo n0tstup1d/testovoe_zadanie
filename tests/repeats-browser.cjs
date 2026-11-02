@@ -1,0 +1,22 @@
+const {chromium}=require(process.env.COMPOSER_PLAYWRIGHT||'playwright');
+const assert=require('node:assert/strict'),path=require('node:path');
+(async()=>{const browser=await chromium.launch({channel:'chrome',headless:true});try{
+ const page=await browser.newPage({viewport:{width:1440,height:1080}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(require('node:url').pathToFileURL(path.join(__dirname,'../demo.html')).href);
+ await page.locator('#names').click();await page.locator('#prompt').fill('телефон, телефон, книга');await page.locator('#generate').click();
+ const phones=()=>page.locator('#canvas g[data-object="phone"]');assert.equal(await phones().count(),2);
+ const roles=()=>phones().evaluateAll(es=>es.map(e=>[e.id,e.dataset.role]));const initial=await roles();assert.equal(new Set(initial.map(x=>x[1])).size,2);
+ await page.locator('#vary').click();assert.deepEqual(await roles(),initial);
+ await page.locator('#size').selectOption('S');await page.locator('#format').selectOption('800x1200');assert.deepEqual(await roles(),initial);
+ await page.locator('#layers button').filter({hasText:'Телефон'}).first().click();await page.locator('#rotation').fill('30');await page.locator('#rotation').press('Tab');
+ await page.locator('#vary').click();assert.match(await page.locator('#'+initial[0][0]).getAttribute('transform'),/rotate\(30/);
+ await page.evaluate(()=>{window.__blobs=[];const original=URL.createObjectURL.bind(URL);URL.createObjectURL=b=>{window.__blobs.push(b);return original(b);};});
+ await page.locator('#export').click();const svg=await page.evaluate(()=>window.__blobs.at(-1).text());assert.equal((svg.match(/data-object="phone"/g)||[]).length,2);const ids=[...svg.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size);
+ await page.locator('#saveProject').click();const project=await page.evaluate(()=>window.__blobs.at(-1).text());
+ await page.locator('#remove').click();assert.equal(await phones().count(),1);
+ await page.locator('#projectInput').setInputFiles({name:'repeats.json',mimeType:'application/json',buffer:Buffer.from(project)});
+ await page.waitForFunction(()=>document.getElementById('status').textContent.includes('восстановлен'));assert.equal(await phones().count(),2);assert.deepEqual(await roles(),initial);
+ await page.locator('#metaphor').click();await page.locator('#prompt').fill('телефон, телефон');await page.locator('#generate').click();assert.equal(await phones().count(),2);
+ await page.locator('#format').selectOption('1200x630');await page.screenshot({path:path.join(__dirname,'../examples/repeated-phones.png'),fullPage:true});assert.deepEqual(errors,[]);
+ console.log('PASS repeated objects: input in both modes, distinct roles/IDs, relayout, S/L, format, rotation, SVG payload, deletion and JSON restoration.');
+ }finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1});

@@ -1,0 +1,1649 @@
+{
+  "objects": [
+    {
+      "id": "book",
+      "name": "Книга",
+      "tags": [
+        "учёба",
+        "знания",
+        "чтение"
+      ],
+      "tagsOrigin": "editorial_suggestion"
+    },
+    {
+      "id": "phone",
+      "name": "Телефон",
+      "tags": [
+        "связь",
+        "приложение",
+        "технологии"
+      ],
+      "tagsOrigin": "editorial_suggestion"
+    },
+    {
+      "id": "puzzle",
+      "name": "Пазлы",
+      "tags": [
+        "решение",
+        "команда",
+        "совместимость"
+      ],
+      "tagsOrigin": "editorial_suggestion"
+    },
+    {
+      "id": "coin",
+      "name": "Монета",
+      "tags": [
+        "деньги",
+        "сбережения",
+        "ценность"
+      ],
+      "tagsOrigin": "editorial_suggestion"
+    },
+    {
+      "id": "headphones",
+      "name": "Наушники",
+      "tags": [
+        "музыка",
+        "звук",
+        "концентрация"
+      ],
+      "tagsOrigin": "editorial_suggestion"
+    },
+    {
+      "id": "lamp",
+      "name": "Лампа",
+      "tags": [
+        "идея",
+        "работа",
+        "освещение"
+      ],
+      "tagsOrigin": "editorial_suggestion"
+    },
+    {
+      "id": "folder",
+      "name": "Папка",
+      "tags": [
+        "документы",
+        "порядок",
+        "проект"
+      ],
+      "tagsOrigin": "editorial_suggestion"
+    },
+    {
+      "id": "pen",
+      "name": "Ручка",
+      "tags": [
+        "запись",
+        "творчество",
+        "договор"
+      ],
+      "tagsOrigin": "editorial_suggestion"
+    },
+    {
+      "id": "wallet",
+      "name": "Кошелёк",
+      "tags": [
+        "бюджет",
+        "покупки",
+        "финансы"
+      ],
+      "tagsOrigin": "editorial_suggestion"
+    },
+    {
+      "id": "flowers",
+      "name": "Цветы в вазе",
+      "tags": [
+        "подарок",
+        "забота",
+        "уют"
+      ],
+      "tagsOrigin": "editorial_suggestion"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "lilac",
+      "backgroundTones": [
+        "#D7CDF5",
+        "#AA9BF0",
+        "#7864D7"
+      ],
+      "objectAccents": [
+        "#F9ECB0",
+        "#F9A3AA",
+        "#FFE3E1"
+      ],
+      "ink": "#181817",
+      "paper": "#FFFFFF",
+      "roleAssignment": "from_palette_columns_and_brief",
+      "automaticRecolorMapping": "pending_per_object_validation"
+    },
+    {
+      "id": "peach",
+      "backgroundTones": [
+        "#FDD7B9",
+        "#FAC896",
+        "#D27532"
+      ],
+      "objectAccents": [
+        "#F9ECB0",
+        "#80DADA",
+        "#BEEBEB"
+      ],
+      "ink": "#181817",
+      "paper": "#FFFFFF",
+      "roleAssignment": "from_palette_columns_and_brief",
+      "automaticRecolorMapping": "pending_per_object_validation"
+    },
+    {
+      "id": "aqua",
+      "backgroundTones": [
+        "#BEEBEB",
+        "#80DADA",
+        "#5ABEBE"
+      ],
+      "objectAccents": [
+        "#FFD4F2",
+        "#6D7BFC",
+        "#B6C6FE"
+      ],
+      "ink": "#181817",
+      "paper": "#FFFFFF",
+      "roleAssignment": "from_palette_columns_and_brief",
+      "automaticRecolorMapping": "pending_per_object_validation"
+    }
+  ],
+  "assets": [
+    {
+      "id": "objects-S-main-book",
+      "kind": "object",
+      "file": "objects/S/main/book.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Group 2136136335.svg"
+      },
+      "sha256": "861fe0817abff8552212eb3817d2e03363c279787937493af6a861cd4ce544da",
+      "width": 723.0,
+      "height": 489.0,
+      "viewBox": "0 0 723 489",
+      "elementCounts": {
+        "svg": 1,
+        "path": 51
+      },
+      "fills": [
+        "#181817",
+        "#F9A3AA",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "book",
+      "size": "S",
+      "role": "main",
+      "name": "Книга",
+      "tags": [
+        "учёба",
+        "знания",
+        "чтение"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-main-phone",
+      "kind": "object",
+      "file": "objects/S/main/phone.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Телефон.svg"
+      },
+      "sha256": "a52c5ab92dd2387468257950e91770de7749d5cc43d393d2a783015d93df62e2",
+      "width": 399.0,
+      "height": 231.0,
+      "viewBox": "0 0 399 231",
+      "elementCounts": {
+        "svg": 1,
+        "path": 96
+      },
+      "fills": [
+        "#181817",
+        "#7864D7",
+        "#D7CDF5",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "phone",
+      "size": "S",
+      "role": "main",
+      "name": "Телефон",
+      "tags": [
+        "связь",
+        "приложение",
+        "технологии"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-main-puzzle",
+      "kind": "object",
+      "file": "objects/S/main/puzzle.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Пазлы.svg"
+      },
+      "sha256": "b12beb5951f6dfde0e864cb61769a3904cb9f47fb8e3cf81a10d9d76c2ef0706",
+      "width": 273.0,
+      "height": 157.0,
+      "viewBox": "0 0 273 157",
+      "elementCounts": {
+        "svg": 1,
+        "path": 57
+      },
+      "fills": [
+        "#181817",
+        "#D7CDF5",
+        "#F9A3AA",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "puzzle",
+      "size": "S",
+      "role": "main",
+      "name": "Пазлы",
+      "tags": [
+        "решение",
+        "команда",
+        "совместимость"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-main-coin",
+      "kind": "object",
+      "file": "objects/S/main/coin.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Монета.svg"
+      },
+      "sha256": "30304fba87a87548cbd09061c19764c45caf051094cea17194e9ae25de532c13",
+      "width": 153.0,
+      "height": 101.0,
+      "viewBox": "0 0 153 101",
+      "elementCounts": {
+        "svg": 1,
+        "path": 130
+      },
+      "fills": [
+        "#181817",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "coin",
+      "size": "S",
+      "role": "main",
+      "name": "Монета",
+      "tags": [
+        "деньги",
+        "сбережения",
+        "ценность"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-main-headphones",
+      "kind": "object",
+      "file": "objects/S/main/headphones.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Наушники.svg"
+      },
+      "sha256": "2ea8818acf331d794f702e57bcd61d9202cc06a507bf45b466af260fe5b479b5",
+      "width": 445.0,
+      "height": 346.0,
+      "viewBox": "0 0 445 346",
+      "elementCounts": {
+        "svg": 1,
+        "path": 79
+      },
+      "fills": [
+        "#181817",
+        "#D7CDF5",
+        "none",
+        "white"
+      ],
+      "objectId": "headphones",
+      "size": "S",
+      "role": "main",
+      "name": "Наушники",
+      "tags": [
+        "музыка",
+        "звук",
+        "концентрация"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-main-lamp",
+      "kind": "object",
+      "file": "objects/S/main/lamp.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Лампа.svg"
+      },
+      "sha256": "917f86b7df1e2ac24c8546bd8c444d94f9281a368d8d6bf8f01cfea0794eafd2",
+      "width": 473.0,
+      "height": 565.0,
+      "viewBox": "0 0 473 565",
+      "elementCounts": {
+        "svg": 1,
+        "path": 27
+      },
+      "fills": [
+        "#181817",
+        "#D7CDF5",
+        "#F9A3AA",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "lamp",
+      "size": "S",
+      "role": "main",
+      "name": "Лампа",
+      "tags": [
+        "идея",
+        "работа",
+        "освещение"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-main-folder",
+      "kind": "object",
+      "file": "objects/S/main/folder.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Group 2136136337.svg"
+      },
+      "sha256": "2cc2d67c7cb5949b98b35f87f02f9267b10666752d4e338b1225382cf1b678c4",
+      "width": 621.0,
+      "height": 330.0,
+      "viewBox": "0 0 621 330",
+      "elementCounts": {
+        "svg": 1,
+        "path": 20
+      },
+      "fills": [
+        "#181817",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "folder",
+      "size": "S",
+      "role": "main",
+      "name": "Папка",
+      "tags": [
+        "документы",
+        "порядок",
+        "проект"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-main-pen",
+      "kind": "object",
+      "file": "objects/S/main/pen.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Group 2136136336.svg"
+      },
+      "sha256": "6ec363fbc5e722765ddd51d52a1f35f2963bc2a8effe29e6e28d653ef5b8bbe2",
+      "width": 255.0,
+      "height": 143.0,
+      "viewBox": "0 0 255 143",
+      "elementCounts": {
+        "svg": 1,
+        "path": 24
+      },
+      "fills": [
+        "#181817",
+        "#F9A3AA",
+        "none",
+        "white"
+      ],
+      "objectId": "pen",
+      "size": "S",
+      "role": "main",
+      "name": "Ручка",
+      "tags": [
+        "запись",
+        "творчество",
+        "договор"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-main-wallet",
+      "kind": "object",
+      "file": "objects/S/main/wallet.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Кошелек.svg"
+      },
+      "sha256": "7d4286ccbc485f017848a83fc4ee6bf6fb0393080912eddd7bb41734fa4b1e46",
+      "width": 316.0,
+      "height": 199.0,
+      "viewBox": "0 0 316 199",
+      "elementCounts": {
+        "svg": 1,
+        "path": 83
+      },
+      "fills": [
+        "#181817",
+        "#D7CDF5",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "wallet",
+      "size": "S",
+      "role": "main",
+      "name": "Кошелёк",
+      "tags": [
+        "бюджет",
+        "покупки",
+        "финансы"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-main-flowers",
+      "kind": "object",
+      "file": "objects/S/main/flowers.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Group 2136136345.svg"
+      },
+      "sha256": "8dc8a0050327c8102ebbf0e46c0b869329ba4fd5815a695cf6474e5f1d389f71",
+      "width": 324.0,
+      "height": 409.0,
+      "viewBox": "0 0 324 409",
+      "elementCounts": {
+        "svg": 1,
+        "path": 131
+      },
+      "fills": [
+        "#181817",
+        "#AA9BF0",
+        "#F9A3AA",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "flowers",
+      "size": "S",
+      "role": "main",
+      "name": "Цветы в вазе",
+      "tags": [
+        "подарок",
+        "забота",
+        "уют"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-background-book",
+      "kind": "object",
+      "file": "objects/S/background/book.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Group 2136136341.svg"
+      },
+      "sha256": "e67afd9b7967394b81ebb63ff6a363b1015e57f3e204dee3c141e59ccbdf19e6",
+      "width": 723.0,
+      "height": 489.0,
+      "viewBox": "0 0 723 489",
+      "elementCounts": {
+        "svg": 1,
+        "path": 54
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "book",
+      "size": "S",
+      "role": "background",
+      "name": "Книга",
+      "tags": [
+        "учёба",
+        "знания",
+        "чтение"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-background-phone",
+      "kind": "object",
+      "file": "objects/S/background/phone.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Телефон-1.svg"
+      },
+      "sha256": "8b643c80de22b9342ec51b87ff1b7453f8e1825f5890c27f02b32d46b7d3e86e",
+      "width": 399.0,
+      "height": 231.0,
+      "viewBox": "0 0 399 231",
+      "elementCounts": {
+        "svg": 1,
+        "path": 155
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "phone",
+      "size": "S",
+      "role": "background",
+      "name": "Телефон",
+      "tags": [
+        "связь",
+        "приложение",
+        "технологии"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-background-puzzle",
+      "kind": "object",
+      "file": "objects/S/background/puzzle.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Пазлы-1.svg"
+      },
+      "sha256": "4933d8f7c5240d5bc438c93710ee0273f15fb38b3d015162f0da7823222a92ec",
+      "width": 273.0,
+      "height": 157.0,
+      "viewBox": "0 0 273 157",
+      "elementCounts": {
+        "svg": 1,
+        "path": 57
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "puzzle",
+      "size": "S",
+      "role": "background",
+      "name": "Пазлы",
+      "tags": [
+        "решение",
+        "команда",
+        "совместимость"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-background-coin",
+      "kind": "object",
+      "file": "objects/S/background/coin.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Монета-1.svg"
+      },
+      "sha256": "9bb11014607170341c110b3739d941ca07341991adb45d17c8aa643f4579c003",
+      "width": 153.0,
+      "height": 101.0,
+      "viewBox": "0 0 153 101",
+      "elementCounts": {
+        "svg": 1,
+        "path": 136
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "coin",
+      "size": "S",
+      "role": "background",
+      "name": "Монета",
+      "tags": [
+        "деньги",
+        "сбережения",
+        "ценность"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-background-headphones",
+      "kind": "object",
+      "file": "objects/S/background/headphones.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Наушники-1.svg"
+      },
+      "sha256": "24c42387a6c5a50e2e1f930ba0d9d5be0881c0bc4f66eed0d7e9cd50827892dc",
+      "width": 445.0,
+      "height": 346.0,
+      "viewBox": "0 0 445 346",
+      "elementCounts": {
+        "svg": 1,
+        "path": 84
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "headphones",
+      "size": "S",
+      "role": "background",
+      "name": "Наушники",
+      "tags": [
+        "музыка",
+        "звук",
+        "концентрация"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-background-lamp",
+      "kind": "object",
+      "file": "objects/S/background/lamp.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Лампа-1.svg"
+      },
+      "sha256": "17c10fcb447aba0c4bb8994073752f84b3c4e763a5a29598808b3d57b885dfe8",
+      "width": 473.0,
+      "height": 565.0,
+      "viewBox": "0 0 473 565",
+      "elementCounts": {
+        "svg": 1,
+        "path": 27
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "lamp",
+      "size": "S",
+      "role": "background",
+      "name": "Лампа",
+      "tags": [
+        "идея",
+        "работа",
+        "освещение"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-background-folder",
+      "kind": "object",
+      "file": "objects/S/background/folder.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Group 2136136342.svg"
+      },
+      "sha256": "ecd331e4023676b93e67069586fff55e2e0a90ec046ad27489c05caabac5befd",
+      "width": 621.0,
+      "height": 330.0,
+      "viewBox": "0 0 621 330",
+      "elementCounts": {
+        "svg": 1,
+        "path": 22
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "folder",
+      "size": "S",
+      "role": "background",
+      "name": "Папка",
+      "tags": [
+        "документы",
+        "порядок",
+        "проект"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-background-pen",
+      "kind": "object",
+      "file": "objects/S/background/pen.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Group 2136136343.svg"
+      },
+      "sha256": "45495afdce7f82c926b3b8ab6688244202549cc969391ff992c328288b1bf0e1",
+      "width": 255.0,
+      "height": 143.0,
+      "viewBox": "0 0 255 143",
+      "elementCounts": {
+        "svg": 1,
+        "path": 24
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "pen",
+      "size": "S",
+      "role": "background",
+      "name": "Ручка",
+      "tags": [
+        "запись",
+        "творчество",
+        "договор"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-background-wallet",
+      "kind": "object",
+      "file": "objects/S/background/wallet.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Кошелек-1.svg"
+      },
+      "sha256": "67e7b2d7ed6908fac70d9b6fb9b7e066fd93eb421e0cde1a9811676d103e62c6",
+      "width": 316.0,
+      "height": 199.0,
+      "viewBox": "0 0 316 199",
+      "elementCounts": {
+        "svg": 1,
+        "path": 86
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "wallet",
+      "size": "S",
+      "role": "background",
+      "name": "Кошелёк",
+      "tags": [
+        "бюджет",
+        "покупки",
+        "финансы"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-S-background-flowers",
+      "kind": "object",
+      "file": "objects/S/background/flowers.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Group 2136136346.svg"
+      },
+      "sha256": "a94baa3a6026397fd6867dcabcf3a229c670d71a2f4be718c8d688778d7ffbf6",
+      "width": 324.0,
+      "height": 409.0,
+      "viewBox": "0 0 324 409",
+      "elementCounts": {
+        "svg": 1,
+        "path": 131
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "flowers",
+      "size": "S",
+      "role": "background",
+      "name": "Цветы в вазе",
+      "tags": [
+        "подарок",
+        "забота",
+        "уют"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-main-book",
+      "kind": "object",
+      "file": "objects/L/main/book.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Книга.svg"
+      },
+      "sha256": "68829d512f20f3f8f4007cd0222a67c4caf2e520c798f0d25b341b0bac329e34",
+      "width": 1446.0,
+      "height": 977.0,
+      "viewBox": "0 0 1446 977",
+      "elementCounts": {
+        "svg": 1,
+        "path": 53
+      },
+      "fills": [
+        "#181817",
+        "#F9A3AA",
+        "#F9ECB0",
+        "#FFE3E1",
+        "none",
+        "white"
+      ],
+      "objectId": "book",
+      "size": "L",
+      "role": "main",
+      "name": "Книга",
+      "tags": [
+        "учёба",
+        "знания",
+        "чтение"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-main-phone",
+      "kind": "object",
+      "file": "objects/L/main/phone.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Телефон.svg"
+      },
+      "sha256": "212505ebd177da83d300e79aeba18f3e51d8f37b63bc0ed097ca62fe44323114",
+      "width": 797.0,
+      "height": 462.0,
+      "viewBox": "0 0 797 462",
+      "elementCounts": {
+        "svg": 1,
+        "path": 155
+      },
+      "fills": [
+        "#181817",
+        "#7864D7",
+        "#D7CDF5",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "phone",
+      "size": "L",
+      "role": "main",
+      "name": "Телефон",
+      "tags": [
+        "связь",
+        "приложение",
+        "технологии"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-main-puzzle",
+      "kind": "object",
+      "file": "objects/L/main/puzzle.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Пазлы.svg"
+      },
+      "sha256": "aa421956a60050153ae59b326b6bf7292047ac9b31f36382108092f436d453c5",
+      "width": 545.0,
+      "height": 314.0,
+      "viewBox": "0 0 545 314",
+      "elementCounts": {
+        "svg": 1,
+        "path": 57
+      },
+      "fills": [
+        "#181817",
+        "#F9A3AA",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "puzzle",
+      "size": "L",
+      "role": "main",
+      "name": "Пазлы",
+      "tags": [
+        "решение",
+        "команда",
+        "совместимость"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-main-coin",
+      "kind": "object",
+      "file": "objects/L/main/coin.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Монета.svg"
+      },
+      "sha256": "586739a9eda53b8c8244f04a636cf7ef07e27b7242fde5650d1894505113f248",
+      "width": 287.0,
+      "height": 189.0,
+      "viewBox": "0 0 287 189",
+      "elementCounts": {
+        "svg": 1,
+        "path": 136
+      },
+      "fills": [
+        "#181817",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "coin",
+      "size": "L",
+      "role": "main",
+      "name": "Монета",
+      "tags": [
+        "деньги",
+        "сбережения",
+        "ценность"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-main-headphones",
+      "kind": "object",
+      "file": "objects/L/main/headphones.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Наушники.svg"
+      },
+      "sha256": "92331c4dd96e99ad1464e62e8ef5d3e00dc3017d66d0f92012da993d2d1cb35a",
+      "width": 889.0,
+      "height": 692.0,
+      "viewBox": "0 0 889 692",
+      "elementCounts": {
+        "svg": 1,
+        "path": 84
+      },
+      "fills": [
+        "#181817",
+        "#D7CDF5",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "headphones",
+      "size": "L",
+      "role": "main",
+      "name": "Наушники",
+      "tags": [
+        "музыка",
+        "звук",
+        "концентрация"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-main-lamp",
+      "kind": "object",
+      "file": "objects/L/main/lamp.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Лампа.svg"
+      },
+      "sha256": "046415a0303750389e6bdc35c42111d1c86d14ff1f27b1997c78aa1716d677f5",
+      "width": 946.0,
+      "height": 1129.0,
+      "viewBox": "0 0 946 1129",
+      "elementCounts": {
+        "svg": 1,
+        "path": 27
+      },
+      "fills": [
+        "#181817",
+        "#D7CDF5",
+        "#F9A3AA",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "lamp",
+      "size": "L",
+      "role": "main",
+      "name": "Лампа",
+      "tags": [
+        "идея",
+        "работа",
+        "освещение"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-main-folder",
+      "kind": "object",
+      "file": "objects/L/main/folder.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Папка.svg"
+      },
+      "sha256": "e1037dd7a46055af35529ee6dfebf3cd19f1e8e20af62fee562d35acc5f01251",
+      "width": 1241.0,
+      "height": 659.0,
+      "viewBox": "0 0 1241 659",
+      "elementCounts": {
+        "svg": 1,
+        "path": 22
+      },
+      "fills": [
+        "#181817",
+        "#F9A3AA",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "folder",
+      "size": "L",
+      "role": "main",
+      "name": "Папка",
+      "tags": [
+        "документы",
+        "порядок",
+        "проект"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-main-pen",
+      "kind": "object",
+      "file": "objects/L/main/pen.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Ручка.svg"
+      },
+      "sha256": "984f57e42399caa21c5e7b5e55cb9a6c52bc3b50260bc93fc15c418ce244685d",
+      "width": 509.0,
+      "height": 286.0,
+      "viewBox": "0 0 509 286",
+      "elementCounts": {
+        "svg": 1,
+        "path": 24
+      },
+      "fills": [
+        "#181817",
+        "#D7CDF5",
+        "#F9A3AA",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "pen",
+      "size": "L",
+      "role": "main",
+      "name": "Ручка",
+      "tags": [
+        "запись",
+        "творчество",
+        "договор"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-main-wallet",
+      "kind": "object",
+      "file": "objects/L/main/wallet.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Кошелек.svg"
+      },
+      "sha256": "2ce2224df5563d73ef064d1b9e71438ecf464aac57b23b1424e7ed1e08e99bcd",
+      "width": 631.0,
+      "height": 397.0,
+      "viewBox": "0 0 631 397",
+      "elementCounts": {
+        "svg": 1,
+        "path": 86
+      },
+      "fills": [
+        "#181817",
+        "#D7CDF5",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "wallet",
+      "size": "L",
+      "role": "main",
+      "name": "Кошелёк",
+      "tags": [
+        "бюджет",
+        "покупки",
+        "финансы"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-main-flowers",
+      "kind": "object",
+      "file": "objects/L/main/flowers.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Group 2136136344.svg"
+      },
+      "sha256": "61b53b61ed3100249ba2c89f314eadaa8be6f31549ed871905779258a1a3e739",
+      "width": 591.0,
+      "height": 748.0,
+      "viewBox": "0 0 591 748",
+      "elementCounts": {
+        "svg": 1,
+        "path": 131
+      },
+      "fills": [
+        "#181817",
+        "#AA9BF0",
+        "#F9A3AA",
+        "#F9ECB0",
+        "none",
+        "white"
+      ],
+      "objectId": "flowers",
+      "size": "L",
+      "role": "main",
+      "name": "Цветы в вазе",
+      "tags": [
+        "подарок",
+        "забота",
+        "уют"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-background-book",
+      "kind": "object",
+      "file": "objects/L/background/book.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Книга-1.svg"
+      },
+      "sha256": "40dbb5f7ba177336a61c6ad30830ff1213001f5bcc88db97a964d7ef19691ca8",
+      "width": 1446.0,
+      "height": 977.0,
+      "viewBox": "0 0 1446 977",
+      "elementCounts": {
+        "svg": 1,
+        "path": 53
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "book",
+      "size": "L",
+      "role": "background",
+      "name": "Книга",
+      "tags": [
+        "учёба",
+        "знания",
+        "чтение"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-background-phone",
+      "kind": "object",
+      "file": "objects/L/background/phone.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Телефон-1.svg"
+      },
+      "sha256": "9434f37dce2d217f0fecb8ad54cab323ba4c193f3b2ca3251167f9f5db49b728",
+      "width": 797.0,
+      "height": 462.0,
+      "viewBox": "0 0 797 462",
+      "elementCounts": {
+        "svg": 1,
+        "path": 155
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "phone",
+      "size": "L",
+      "role": "background",
+      "name": "Телефон",
+      "tags": [
+        "связь",
+        "приложение",
+        "технологии"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-background-puzzle",
+      "kind": "object",
+      "file": "objects/L/background/puzzle.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Пазлы-1.svg"
+      },
+      "sha256": "822607ace9afa60fb3ba0c5f30fb3ac141d5ad2858ffbdd92629f6fc7982cf78",
+      "width": 545.0,
+      "height": 314.0,
+      "viewBox": "0 0 545 314",
+      "elementCounts": {
+        "svg": 1,
+        "path": 57
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "puzzle",
+      "size": "L",
+      "role": "background",
+      "name": "Пазлы",
+      "tags": [
+        "решение",
+        "команда",
+        "совместимость"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-background-coin",
+      "kind": "object",
+      "file": "objects/L/background/coin.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Монета-1.svg"
+      },
+      "sha256": "81a2baf3f608bda1cfe57d73d71382e3cfb2d541f5b7710e91f30e7d2c54c4ef",
+      "width": 287.0,
+      "height": 189.0,
+      "viewBox": "0 0 287 189",
+      "elementCounts": {
+        "svg": 1,
+        "path": 136
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "coin",
+      "size": "L",
+      "role": "background",
+      "name": "Монета",
+      "tags": [
+        "деньги",
+        "сбережения",
+        "ценность"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-background-headphones",
+      "kind": "object",
+      "file": "objects/L/background/headphones.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Наушники-1.svg"
+      },
+      "sha256": "b7d7b514669180eb6bdd09450b6763328b24bbfe400a2a42f84c7b2e9503be94",
+      "width": 889.0,
+      "height": 692.0,
+      "viewBox": "0 0 889 692",
+      "elementCounts": {
+        "svg": 1,
+        "path": 84
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "headphones",
+      "size": "L",
+      "role": "background",
+      "name": "Наушники",
+      "tags": [
+        "музыка",
+        "звук",
+        "концентрация"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-background-lamp",
+      "kind": "object",
+      "file": "objects/L/background/lamp.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Лампа-1.svg"
+      },
+      "sha256": "de5957aca823b48a4d5648323b5ecd2ef7a4bdec99994d47f62e113d9837c7be",
+      "width": 946.0,
+      "height": 1129.0,
+      "viewBox": "0 0 946 1129",
+      "elementCounts": {
+        "svg": 1,
+        "path": 27
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "lamp",
+      "size": "L",
+      "role": "background",
+      "name": "Лампа",
+      "tags": [
+        "идея",
+        "работа",
+        "освещение"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-background-folder",
+      "kind": "object",
+      "file": "objects/L/background/folder.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Папка-1.svg"
+      },
+      "sha256": "96056b71114aeb435e1221722afe0e0adcbd2a1a76d9aee776a4e42d30a4fb0c",
+      "width": 1241.0,
+      "height": 659.0,
+      "viewBox": "0 0 1241 659",
+      "elementCounts": {
+        "svg": 1,
+        "path": 22
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "folder",
+      "size": "L",
+      "role": "background",
+      "name": "Папка",
+      "tags": [
+        "документы",
+        "порядок",
+        "проект"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-background-pen",
+      "kind": "object",
+      "file": "objects/L/background/pen.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Ручка-1.svg"
+      },
+      "sha256": "34cae2dc78723dc436e67a541aed23e28fa49135a1ec5b695dda2a7e9d95e84a",
+      "width": 509.0,
+      "height": 286.0,
+      "viewBox": "0 0 509 286",
+      "elementCounts": {
+        "svg": 1,
+        "path": 24
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "pen",
+      "size": "L",
+      "role": "background",
+      "name": "Ручка",
+      "tags": [
+        "запись",
+        "творчество",
+        "договор"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-background-wallet",
+      "kind": "object",
+      "file": "objects/L/background/wallet.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Кошелек-1.svg"
+      },
+      "sha256": "fc9c1e0615a5fff73e9033b19e71238d0a6b92f3c80aacbcde2eab022e6535a3",
+      "width": 631.0,
+      "height": 397.0,
+      "viewBox": "0 0 631 397",
+      "elementCounts": {
+        "svg": 1,
+        "path": 86
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "wallet",
+      "size": "L",
+      "role": "background",
+      "name": "Кошелёк",
+      "tags": [
+        "бюджет",
+        "покупки",
+        "финансы"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "objects-L-background-flowers",
+      "kind": "object",
+      "file": "objects/L/background/flowers.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Group 2136136347.svg"
+      },
+      "sha256": "13628cfeb28e73334c68ded69e348b89ebc81ea4b59cacb8a5f3408279d783a4",
+      "width": 591.0,
+      "height": 748.0,
+      "viewBox": "0 0 591 748",
+      "elementCounts": {
+        "svg": 1,
+        "path": 131
+      },
+      "fills": [
+        "#7864D7",
+        "#D7CDF5",
+        "none"
+      ],
+      "objectId": "flowers",
+      "size": "L",
+      "role": "background",
+      "name": "Цветы в вазе",
+      "tags": [
+        "подарок",
+        "забота",
+        "уют"
+      ],
+      "sizeAssignment": "inferred_from_dimensions_and_visual_detail"
+    },
+    {
+      "id": "backgrounds-S-lilac",
+      "kind": "background",
+      "file": "backgrounds/S/lilac.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Фон.svg"
+      },
+      "sha256": "7653d5af47e23cae250bbbf29153863e616f81221e7a840b8fc304cc92d05117",
+      "width": 500.0,
+      "height": 500.0,
+      "viewBox": "0 0 500 500",
+      "elementCounts": {
+        "svg": 1,
+        "rect": 1,
+        "path": 9
+      },
+      "fills": [
+        "#7864D7",
+        "#AA9BF0",
+        "#D7CDF5",
+        "none",
+        "white"
+      ],
+      "size": "S",
+      "palette": "lilac"
+    },
+    {
+      "id": "backgrounds-S-aqua",
+      "kind": "background",
+      "file": "backgrounds/S/aqua.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Фон-1.svg"
+      },
+      "sha256": "8cf96b5f7d125c6647fe6190dcf17d4283696ba76cc8284ded66379a694bc864",
+      "width": 500.0,
+      "height": 500.0,
+      "viewBox": "0 0 500 500",
+      "elementCounts": {
+        "svg": 1,
+        "rect": 1,
+        "path": 9
+      },
+      "fills": [
+        "#5ABEBE",
+        "#80DADA",
+        "#BEEBEB",
+        "none",
+        "white"
+      ],
+      "size": "S",
+      "palette": "aqua"
+    },
+    {
+      "id": "backgrounds-S-peach",
+      "kind": "background",
+      "file": "backgrounds/S/peach.svg",
+      "source": {
+        "archive": 8,
+        "filename": "Фон-2.svg"
+      },
+      "sha256": "c423da16a0faca6566917b76cc859a3f22ac707eed79b457a615df76489471c0",
+      "width": 500.0,
+      "height": 500.0,
+      "viewBox": "0 0 500 500",
+      "elementCounts": {
+        "svg": 1,
+        "g": 1,
+        "rect": 2,
+        "path": 3,
+        "defs": 1,
+        "clipPath": 1
+      },
+      "fills": [
+        "#FAC896",
+        "#FDD7B9",
+        "none",
+        "white"
+      ],
+      "size": "S",
+      "palette": "peach"
+    },
+    {
+      "id": "backgrounds-L-lilac",
+      "kind": "background",
+      "file": "backgrounds/L/lilac.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Фон.svg"
+      },
+      "sha256": "d03fe3df35a92aee70f9e94053047eb0491a0a6f14bcdfa6413d04f4a2ad49df",
+      "width": 1000.0,
+      "height": 1000.0,
+      "viewBox": "0 0 1000 1000",
+      "elementCounts": {
+        "svg": 1,
+        "rect": 1,
+        "path": 9
+      },
+      "fills": [
+        "#7864D7",
+        "#AA9BF0",
+        "#D7CDF5",
+        "none",
+        "white"
+      ],
+      "size": "L",
+      "palette": "lilac"
+    },
+    {
+      "id": "backgrounds-L-aqua",
+      "kind": "background",
+      "file": "backgrounds/L/aqua.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Фон-1.svg"
+      },
+      "sha256": "309452e0ee81cf5063c4938ba80e49cf4af29c75088e4e9c738ca42f8b08a1d1",
+      "width": 1000.0,
+      "height": 1000.0,
+      "viewBox": "0 0 1000 1000",
+      "elementCounts": {
+        "svg": 1,
+        "rect": 1,
+        "path": 9
+      },
+      "fills": [
+        "#5ABEBE",
+        "#80DADA",
+        "#BEEBEB",
+        "none",
+        "white"
+      ],
+      "size": "L",
+      "palette": "aqua"
+    },
+    {
+      "id": "backgrounds-L-peach",
+      "kind": "background",
+      "file": "backgrounds/L/peach.svg",
+      "source": {
+        "archive": 9,
+        "filename": "Фон-2.svg"
+      },
+      "sha256": "2dce32d027db98ef098788ae8bae34bc480f0ae5e381e8984595599de452f0ca",
+      "width": 1000.0,
+      "height": 1000.0,
+      "viewBox": "0 0 1000 1000",
+      "elementCounts": {
+        "svg": 1,
+        "g": 1,
+        "rect": 2,
+        "path": 3,
+        "defs": 1,
+        "clipPath": 1
+      },
+      "fills": [
+        "#FAC896",
+        "#FDD7B9",
+        "none",
+        "white"
+      ],
+      "size": "L",
+      "palette": "peach"
+    }
+  ]
+}

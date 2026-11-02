@@ -1,0 +1,1 @@
+{"name":"illustration-composer","version":"0.1.0","private":true,"description":"Offline vector illustration composer and Figma plugin","scripts":{"build":"node build.cjs","test":"node --test tests/core.test.cjs"}}

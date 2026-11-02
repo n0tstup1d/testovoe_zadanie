@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "scene": {
+    "width": 1000,
+    "height": 1000,
+    "size": "S",
+    "scale": 1.7475412501016012,
+    "palette": "peach",
+    "style": "balanced",
+    "items": [
+      {
+        "uid": "item-1",
+        "objectId": "coin",
+        "role": "background",
+        "x": 662.626188734455,
+        "y": 214.95854669592782,
+        "rotation": 0
+      },
+      {
+        "uid": "item-2",
+        "objectId": "phone",
+        "role": "background",
+        "x": 70,
+        "y": 503.6873120377144,
+        "rotation": 0
+      },
+      {
+        "uid": "item-0",
+        "objectId": "wallet",
+        "role": "main",
+        "x": 70,
+        "y": 92.63065918881574,
+        "rotation": 0
+      }
+    ],
+    "background": true
+  },
+  "custom": null
+}
